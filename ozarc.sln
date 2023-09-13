@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ozarc", "ozarc\ozarc.vcxproj", "{B147D20F-4778-4422-A783-DB5BF38C512D}"
 EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "installer_ozarc", "installer_ozarc\installer_ozarc.wixproj", "{F7AF932C-6A6D-4816-AF63-041B704581AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{B147D20F-4778-4422-A783-DB5BF38C512D}.Release|x64.Build.0 = Release|x64
 		{B147D20F-4778-4422-A783-DB5BF38C512D}.Release|x86.ActiveCfg = Release|Win32
 		{B147D20F-4778-4422-A783-DB5BF38C512D}.Release|x86.Build.0 = Release|Win32
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Debug|x64.ActiveCfg = Debug|x86
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Debug|x64.Build.0 = Debug|x86
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Debug|x86.ActiveCfg = Debug|x86
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Debug|x86.Build.0 = Debug|x86
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Release|x64.ActiveCfg = Release|x86
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Release|x64.Build.0 = Release|x86
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Release|x86.ActiveCfg = Release|x86
+		{F7AF932C-6A6D-4816-AF63-041B704581AD}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
